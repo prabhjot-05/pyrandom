@@ -1,0 +1,10 @@
+f=open("reverse.txt","w")
+content=input("Enter your file contents=")
+f.write(content)
+print(f.name)
+print(f.mode)
+f.close()
+
+f=open("Student.txt")
+print(f.read)
+f.close()
